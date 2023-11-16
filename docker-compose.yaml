@@ -5,7 +5,7 @@ services:
   fenrus:
     image: revenz/fenrus
     container_name: fenrus
-    enviroment:
+    environment:
       - TZ=Europe/Madrid
     volumes:
       - ./app/data:/app/data
